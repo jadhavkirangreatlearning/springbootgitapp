@@ -17,4 +17,9 @@ public class ApplicationController {
     public String sayAddress(){
         return "PUNE MH INDIA";
     }
+
+    @GetMapping("/services")
+    public String sayServices(){
+        return "Software Developement";
+    }
 }
